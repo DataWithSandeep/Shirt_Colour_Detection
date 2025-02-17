@@ -14,6 +14,10 @@ A simple Streamlit-based application that detects the dominant color of a shirt 
    ```bash
    git clone https://github.com/DataWithSandeep/Shirt_Colour_Detection 
     cd Shirt_Colour_Detection
-2. ```bash pip install -r requirements.txt
-3. ```bash streamlit run shirt.py 
+2.**Install dependencies:**
+ ```bash
+   pip install -r requirements.txt
+3. **Run the Streamlit app:**
+```bash
+   streamlit run shirt.py 
 
