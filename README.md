@@ -1,21 +1,19 @@
-# Shirt Colour Detection 👕🎨
+# Shirt Colour Detection 🎨👕
 
-A computer vision project that detects shirts in images/webcam feed and identifies their dominant colors using YOLO object detection and KMeans clustering.
+A simple Streamlit-based application that detects the dominant color of a shirt in an image using AI and computer vision.
 
-## Features
-- Image upload functionality
-- Live webcam color detection
-- Dominant color extraction
-- Real-time visualization
+## 🔧 Features  
+- Detects shirt color using **YOLO** and **OpenCV**  
+- Uses **KMeans clustering** for accurate color extraction  
+- Simple UI with **Streamlit**  
+- Efficient and runs on CPU/GPU with **PyTorch**  
 
-## Installation
+## ⚙️ Installation  
 
-1. Clone the repository:
-```bash
-git clone https://github.com/DataWithSandeep/Shirt_Colour_Detection
+1. **Clone the repository:**  
+   ```bash
+   git clone https://github.com/DataWithSandeep/Shirt_Colour_Detection
+   cd Shirt_Colour_Detection ```
+2. pip install -r requirements.txt
+3. streamlit run shirt.py
 
-2. Install dependencies:
-pip install -r requirements.txt
-
-3. Run the Streamlit app:
-streamlit run shirt.py
