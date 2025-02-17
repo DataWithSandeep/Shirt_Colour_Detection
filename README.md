@@ -15,9 +15,7 @@ A computer vision project that detects shirts in images/webcam feed and identifi
 git clone https://github.com/DataWithSandeep/Shirt_Colour_Detection
 
 2. Install dependencies:
-```bash
 pip install -r requirements.txt
 
 3. Run the Streamlit app:
-```bash
 streamlit run shirt.py
